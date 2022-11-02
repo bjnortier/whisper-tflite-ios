@@ -14,6 +14,13 @@
 		175D65C52912C009001BD974 /* whisper_tflite_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D65C42912C009001BD974 /* whisper_tflite_iosTests.swift */; };
 		175D65CF2912C009001BD974 /* whisper_tflite_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D65CE2912C009001BD974 /* whisper_tflite_iosUITests.swift */; };
 		175D65D12912C009001BD974 /* whisper_tflite_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D65D02912C009001BD974 /* whisper_tflite_iosUITestsLaunchTests.swift */; };
+		175D65DE2912C11C001BD974 /* AudioTranscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D65DD2912C11C001BD974 /* AudioTranscriber.swift */; };
+		175D65E92912C544001BD974 /* whisper_bridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 175D65E52912C544001BD974 /* whisper_bridge.cpp */; };
+		175D65EB2912C592001BD974 /* filters_vocab_gen.bin in Resources */ = {isa = PBXBuildFile; fileRef = 175D65EA2912C592001BD974 /* filters_vocab_gen.bin */; };
+		175D65ED2912C598001BD974 /* jfk.wav in Resources */ = {isa = PBXBuildFile; fileRef = 175D65EC2912C598001BD974 /* jfk.wav */; };
+		175D65F02912D5D3001BD974 /* whisper.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 175D65EF2912D5D3001BD974 /* whisper.tflite */; };
+		175D65F22912DC53001BD974 /* test_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 175D65F12912DC53001BD974 /* test_1.wav */; };
+		6815A8164565A70B249861B5 /* Pods_whisper_tflite_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E25EBA1152F720CE6914518 /* Pods_whisper_tflite_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,19 @@
 		175D65CA2912C009001BD974 /* whisper-tflite-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "whisper-tflite-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		175D65CE2912C009001BD974 /* whisper_tflite_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whisper_tflite_iosUITests.swift; sourceTree = "<group>"; };
 		175D65D02912C009001BD974 /* whisper_tflite_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whisper_tflite_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		175D65DD2912C11C001BD974 /* AudioTranscriber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTranscriber.swift; sourceTree = "<group>"; };
+		175D65E32912C544001BD974 /* whisper-tflite-ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "whisper-tflite-ios-Bridging-Header.h"; sourceTree = "<group>"; };
+		175D65E42912C544001BD974 /* dr_wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dr_wav.h; sourceTree = "<group>"; };
+		175D65E52912C544001BD974 /* whisper_bridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = whisper_bridge.cpp; sourceTree = "<group>"; };
+		175D65E62912C544001BD974 /* whisper_bridge.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = whisper_bridge.hpp; sourceTree = "<group>"; };
+		175D65E82912C544001BD974 /* whisper.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = whisper.hpp; sourceTree = "<group>"; };
+		175D65EA2912C592001BD974 /* filters_vocab_gen.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = filters_vocab_gen.bin; sourceTree = "<group>"; };
+		175D65EC2912C598001BD974 /* jfk.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jfk.wav; sourceTree = "<group>"; };
+		175D65EF2912D5D3001BD974 /* whisper.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = whisper.tflite; sourceTree = "<group>"; };
+		175D65F12912DC53001BD974 /* test_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test_1.wav; sourceTree = "<group>"; };
+		5F892A167AFF43F6E9E2F5BD /* Pods-whisper-tflite-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whisper-tflite-ios.debug.xcconfig"; path = "Target Support Files/Pods-whisper-tflite-ios/Pods-whisper-tflite-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		8E25EBA1152F720CE6914518 /* Pods_whisper_tflite_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whisper_tflite_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74CEB3DA012DBBEE74C128C /* Pods-whisper-tflite-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whisper-tflite-ios.release.xcconfig"; path = "Target Support Files/Pods-whisper-tflite-ios/Pods-whisper-tflite-ios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6815A8164565A70B249861B5 /* Pods_whisper_tflite_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +99,8 @@
 				175D65C32912C009001BD974 /* whisper-tflite-iosTests */,
 				175D65CD2912C009001BD974 /* whisper-tflite-iosUITests */,
 				175D65B12912C008001BD974 /* Products */,
+				557300B63122224515D889AE /* Pods */,
+				5B7DB08DCF55F7A0B246ADF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +117,13 @@
 		175D65B22912C008001BD974 /* whisper-tflite-ios */ = {
 			isa = PBXGroup;
 			children = (
+				175D65E22912C529001BD974 /* C-API */,
+				175D65DF2912C1D9001BD974 /* resources */,
 				175D65B32912C008001BD974 /* whisper_tflite_iosApp.swift */,
 				175D65B52912C008001BD974 /* ContentView.swift */,
 				175D65B72912C008001BD974 /* Assets.xcassets */,
 				175D65B92912C008001BD974 /* Preview Content */,
+				175D65DD2912C11C001BD974 /* AudioTranscriber.swift */,
 			);
 			path = "whisper-tflite-ios";
 			sourceTree = "<group>";
@@ -127,6 +153,46 @@
 			path = "whisper-tflite-iosUITests";
 			sourceTree = "<group>";
 		};
+		175D65DF2912C1D9001BD974 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				175D65F12912DC53001BD974 /* test_1.wav */,
+				175D65EF2912D5D3001BD974 /* whisper.tflite */,
+				175D65EC2912C598001BD974 /* jfk.wav */,
+				175D65EA2912C592001BD974 /* filters_vocab_gen.bin */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		175D65E22912C529001BD974 /* C-API */ = {
+			isa = PBXGroup;
+			children = (
+				175D65E42912C544001BD974 /* dr_wav.h */,
+				175D65E52912C544001BD974 /* whisper_bridge.cpp */,
+				175D65E62912C544001BD974 /* whisper_bridge.hpp */,
+				175D65E82912C544001BD974 /* whisper.hpp */,
+				175D65E32912C544001BD974 /* whisper-tflite-ios-Bridging-Header.h */,
+			);
+			path = "C-API";
+			sourceTree = "<group>";
+		};
+		557300B63122224515D889AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F892A167AFF43F6E9E2F5BD /* Pods-whisper-tflite-ios.debug.xcconfig */,
+				B74CEB3DA012DBBEE74C128C /* Pods-whisper-tflite-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5B7DB08DCF55F7A0B246ADF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E25EBA1152F720CE6914518 /* Pods_whisper_tflite_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 175D65D42912C009001BD974 /* Build configuration list for PBXNativeTarget "whisper-tflite-ios" */;
 			buildPhases = (
+				4D78DA91D2C9BC354159A22E /* [CP] Check Pods Manifest.lock */,
 				175D65AC2912C008001BD974 /* Sources */,
 				175D65AD2912C008001BD974 /* Frameworks */,
 				175D65AE2912C008001BD974 /* Resources */,
@@ -195,6 +262,7 @@
 				TargetAttributes = {
 					175D65AF2912C008001BD974 = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 					175D65BF2912C009001BD974 = {
 						CreatedOnToolsVersion = 14.1;
@@ -231,8 +299,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				175D65EB2912C592001BD974 /* filters_vocab_gen.bin in Resources */,
 				175D65BB2912C008001BD974 /* Preview Assets.xcassets in Resources */,
+				175D65F02912D5D3001BD974 /* whisper.tflite in Resources */,
 				175D65B82912C008001BD974 /* Assets.xcassets in Resources */,
+				175D65F22912DC53001BD974 /* test_1.wav in Resources */,
+				175D65ED2912C598001BD974 /* jfk.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +324,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D78DA91D2C9BC354159A22E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-whisper-tflite-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		175D65AC2912C008001BD974 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				175D65B62912C008001BD974 /* ContentView.swift in Sources */,
+				175D65E92912C544001BD974 /* whisper_bridge.cpp in Sources */,
 				175D65B42912C008001BD974 /* whisper_tflite_iosApp.swift in Sources */,
+				175D65DE2912C11C001BD974 /* AudioTranscriber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,9 +510,11 @@
 		};
 		175D65D52912C009001BD974 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F892A167AFF43F6E9E2F5BD /* Pods-whisper-tflite-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"whisper-tflite-ios/Preview Content\"";
@@ -425,6 +526,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,17 +534,24 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bjnortier.whisper-tflite-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "whisper-tflite-ios/C-API/whisper-tflite-ios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		175D65D62912C009001BD974 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B74CEB3DA012DBBEE74C128C /* Pods-whisper-tflite-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"whisper-tflite-ios/Preview Content\"";
@@ -454,6 +563,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,9 +571,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bjnortier.whisper-tflite-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "whisper-tflite-ios/C-API/whisper-tflite-ios-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
