@@ -161,11 +161,6 @@ int process(const char* resource_path, const char* pcmfilename, float* result) {
           return -1;
         }
 
-        printf("\nmel.n_len%ld\n", mel.n_len);
-        printf("\nmel.n_mel:%d\n", mel.n_mel);
-        for (int i = 0; i < 10; ++i) {
-            printf("%d: %.3f\n", i, mel.data[i]);
-        }
     }  // end of audio file processing
     memcpy(result, mel.data.data(), 240000 * 4);
 

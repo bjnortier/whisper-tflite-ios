@@ -19,7 +19,6 @@
 		175D65EB2912C592001BD974 /* filters_vocab_gen.bin in Resources */ = {isa = PBXBuildFile; fileRef = 175D65EA2912C592001BD974 /* filters_vocab_gen.bin */; };
 		175D65ED2912C598001BD974 /* jfk.wav in Resources */ = {isa = PBXBuildFile; fileRef = 175D65EC2912C598001BD974 /* jfk.wav */; };
 		175D65F02912D5D3001BD974 /* whisper.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 175D65EF2912D5D3001BD974 /* whisper.tflite */; };
-		175D65F22912DC53001BD974 /* test_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 175D65F12912DC53001BD974 /* test_1.wav */; };
 		6815A8164565A70B249861B5 /* Pods_whisper_tflite_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E25EBA1152F720CE6914518 /* Pods_whisper_tflite_ios.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +59,6 @@
 		175D65EA2912C592001BD974 /* filters_vocab_gen.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = filters_vocab_gen.bin; sourceTree = "<group>"; };
 		175D65EC2912C598001BD974 /* jfk.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jfk.wav; sourceTree = "<group>"; };
 		175D65EF2912D5D3001BD974 /* whisper.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = whisper.tflite; sourceTree = "<group>"; };
-		175D65F12912DC53001BD974 /* test_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test_1.wav; sourceTree = "<group>"; };
 		5F892A167AFF43F6E9E2F5BD /* Pods-whisper-tflite-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whisper-tflite-ios.debug.xcconfig"; path = "Target Support Files/Pods-whisper-tflite-ios/Pods-whisper-tflite-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		8E25EBA1152F720CE6914518 /* Pods_whisper_tflite_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whisper_tflite_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B74CEB3DA012DBBEE74C128C /* Pods-whisper-tflite-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whisper-tflite-ios.release.xcconfig"; path = "Target Support Files/Pods-whisper-tflite-ios/Pods-whisper-tflite-ios.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,9 +154,8 @@
 		175D65DF2912C1D9001BD974 /* resources */ = {
 			isa = PBXGroup;
 			children = (
-				175D65F12912DC53001BD974 /* test_1.wav */,
-				175D65EF2912D5D3001BD974 /* whisper.tflite */,
 				175D65EC2912C598001BD974 /* jfk.wav */,
+				175D65EF2912D5D3001BD974 /* whisper.tflite */,
 				175D65EA2912C592001BD974 /* filters_vocab_gen.bin */,
 			);
 			path = resources;
@@ -303,7 +300,6 @@
 				175D65BB2912C008001BD974 /* Preview Assets.xcassets in Resources */,
 				175D65F02912D5D3001BD974 /* whisper.tflite in Resources */,
 				175D65B82912C008001BD974 /* Assets.xcassets in Resources */,
-				175D65F22912DC53001BD974 /* test_1.wav in Resources */,
 				175D65ED2912C598001BD974 /* jfk.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
